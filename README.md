@@ -32,4 +32,8 @@ Initial release
 * Allow Copy of Hangout url
 * Open hangout in browser
 
+### 1.0.0
+
+Added Plugin Icon 
+
 **Enjoy!**
