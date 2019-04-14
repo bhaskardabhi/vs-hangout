@@ -2,7 +2,7 @@
   "name": "vs-hangout",
   "displayName": "vs-hangout",
   "description": "Copies Hangout url to your clipboard so that you can start hangout instantly",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.33.0"
   },
@@ -19,7 +19,8 @@
       {
         "command": "extension.copyHangoutLinkToClip",
         "title": "Copy Hangout Link to clipboard"
-      },{
+      },
+      {
         "command": "extension.openHangoutLink",
         "title": "Open Hangout Link to browser"
       }
