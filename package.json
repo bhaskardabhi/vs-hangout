@@ -3,6 +3,11 @@
   "displayName": "vs-hangout",
   "description": "Copies Hangout url to your clipboard so that you can start hangout instantly",
   "version": "1.0.0",
+  "icon": "resources/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhaskardabhi/vs-hangout"
+  },
   "engines": {
     "vscode": "^1.33.0"
   },
@@ -36,6 +41,7 @@
       }
     ]
   },
+  "publisher": "bhaskardabhi",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
