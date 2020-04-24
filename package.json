@@ -2,7 +2,7 @@
   "name": "vs-hangout",
   "displayName": "vs-hangout",
   "description": "Copies Hangout url to your clipboard so that you can start hangout instantly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "resources/icon.png",
   "repository": {
     "type": "git",
