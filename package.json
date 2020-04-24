@@ -16,7 +16,8 @@
   ],
   "activationEvents": [
     "onCommand:extension.copyHangoutLinkToClip",
-    "onCommand:extension.openHangoutLink"
+    "onCommand:extension.openHangoutLink",
+    "onCommand:extension.openMeetLink"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -28,6 +29,10 @@
       {
         "command": "extension.openHangoutLink",
         "title": "Open Hangout Link to browser"
+      },
+      {
+        "command": "extension.openMeetLink",
+        "title": "Open Google Meet Link to browser"
       }
     ],
     "keybindings": [
@@ -38,6 +43,10 @@
       {
         "key": "ctrl+alt+o",
         "command": "extension.openHangoutLink"
+      },
+      {
+        "key": "ctrl+alt+m",
+        "command": "extension.openMeetLink"
       }
     ]
   },

@@ -11,6 +11,10 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(vscode.commands.registerCommand('extension.openHangoutLink', () => {
 		vscode.env.openExternal(vscode.Uri.parse('https://hangouts.google.com/call/'));
 	}));
+
+	context.subscriptions.push(vscode.commands.registerCommand('extension.openMeetLink', () => {
+		vscode.env.openExternal(vscode.Uri.parse('https://meet.google.com/new/'));
+	}));
 }
 
 export function deactivate() {}
